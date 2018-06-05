@@ -4,7 +4,7 @@ import {HttpClient} from 'aurelia-fetch-client';
 
 @inject(HttpClient)
 export class Users {
-  heading = 'Github Users';
+  heading = 'Github Users are awesome!';
   users = [];
 
   constructor(http) {
